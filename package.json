@@ -1,0 +1,19 @@
+{
+  "name": "lbc",
+  "version": "1.0.0",
+  "author": "reco_luan",
+  "scripts": {
+    "dev": "vuepress dev . --open --host \"localhost\" --temp .temp",
+    "build": "vuepress build ."
+  },
+  "devDependencies": {
+    "vuepress": "1.8.2",
+    "vuepress-plugin-sakura": "^1.1.0",
+    "vuepress-theme-reco": "1.6.6"
+  },
+  "description": "lbc",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "vuepress-plugin-cursor-effects": "^1.0.2"
+  }
+}
